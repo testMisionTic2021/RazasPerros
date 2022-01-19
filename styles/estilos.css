@@ -14,12 +14,11 @@ ul {
     padding: 10px;
 }
 
-<<<<<<< HEAD
 .logo {
     height: 70px;
 }
 
-=======
+
 .mainButton {
     background-color: #1bb76e;
     color: white;
@@ -27,11 +26,30 @@ ul {
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: #1bb76e;
+    color: white;    
 }
 
 .mainButton:hover {
-    cursor: pointer;
     box-shadow: 1px 1px green;
+}
+
+.secondaryButton {
+    background-color: #60f3f3;
+    color: white;
+}
+
+.secondaryButton:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(64, 240, 231);
     transform: scale(1.1);
 }
->>>>>>> 5.boton-post
