@@ -13,15 +13,17 @@ ul {
     justify-content: space-between;
     padding: 10px;
 }
-
+.logo {
+    height: 70px;
+}
 
 .button {
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    
+  border:0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
 }
+
 .button:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -36,13 +38,15 @@ ul {
     box-shadow: 1px 1px green;
 }
 
+
+
+
 .secondaryButton {
     background-color: #60f3f3;
     color: white;
 }
 
 .secondaryButton:hover {
-    cursor: pointer;
     box-shadow: 1px 1px rgb(64, 240, 231);
   
 }
@@ -62,3 +66,7 @@ ul {
     outline: none;
     border: 0px;
 }
+
+    
+
+
