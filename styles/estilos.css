@@ -13,20 +13,15 @@ ul {
     justify-content: space-between;
     padding: 10px;
 }
-
 .logo {
     height: 70px;
 }
 
-
-.mainButton {
-    background-color: #1bb76e;
-    color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    
+.button {
+  border:0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
 }
 
 .button:hover {
@@ -43,13 +38,35 @@ ul {
     box-shadow: 1px 1px green;
 }
 
+
+
+
 .secondaryButton {
     background-color: #60f3f3;
     color: white;
 }
 
 .secondaryButton:hover {
-    cursor: pointer;
     box-shadow: 1px 1px rgb(64, 240, 231);
-    transform: scale(1.1);
+  
 }
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within {
+    border: 1px solid blue
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
+
+    
+
+
