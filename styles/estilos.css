@@ -81,19 +81,46 @@ ul {
     color: rgb(37, 37, 201);
 }
 
+
+.tituloSeccion {
+    display: flex;
+    text-align: center;
+}
+
 .contenedorImagen {
     width: 240px;
     height: 350px;
     display: flex;
 }
 
+.contenedorImagen:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 .contenedorImagen > img {
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .breedCard {
     margin: 10px;
+    background-color: rgb(189, 42, 5);
+    box-shadow: 5px 10px 5px gray;
+    border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+.breedTittle {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+      
 }
 
 .breedCardContainer {
