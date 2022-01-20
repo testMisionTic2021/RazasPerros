@@ -24,6 +24,7 @@ ul {
 
 .logo {
     height: 70px;
+    border-radius: 10px;
 }
 
 .button {
@@ -81,16 +82,19 @@ ul {
     color: rgb(37, 37, 201);
 }
 
-
-.tituloSeccion {
-    display: flex;
-    text-align: center;
+.centrado{
+    text-align:center;
+    border:1px dotted #000; 
+    padding:8px;
+    color: rgb(87, 86, 88);
 }
+
 
 .contenedorImagen {
     width: 240px;
     height: 350px;
     display: flex;
+    
 }
 
 .contenedorImagen:hover {
@@ -112,8 +116,11 @@ ul {
     box-shadow: 5px 10px 5px gray;
     border-radius: 10px;
     border-radius: 10px;
+    text-align:center;
+    
     
 }
+
 
 .breedTittle {
     color: white;
@@ -126,3 +133,5 @@ ul {
 .breedCardContainer {
     display: flex;
 }
+
+
