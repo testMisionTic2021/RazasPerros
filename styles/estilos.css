@@ -80,22 +80,3 @@ ul {
 .iconoBusqueda:hover {
     color: rgb(37, 37, 201);
 }
-
-.contenedorImagen {
-    width: 240px;
-    height: 350px;
-    display: flex;
-}
-
-.contenedorImagen > img {
-    object-fit: cover;
-    width: 100%;
-}
-
-.breedCard {
-    margin: 10px;
-}
-
-.breedCardContainer {
-    display: flex;
-}
