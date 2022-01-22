@@ -1,10 +1,11 @@
-import logo from './media/logo2.png';
-import './styles/App.css';
-import borderCollie from './media/bodercollie.jpg'
-import bulldog from './media/bulldogsIngles.jpg'
-import husky from './media/husky.jpg'
-import rhodesian from './media/rhodesian.jpg'
-import rottweiler from './media/rottweiler.jpg'
+import CardRazasPerros from 'components/CardRazasPerros';
+import logo from 'media/logo2.png';
+import 'styles/App.css';
+import borderCollie from 'media/bodercollie.jpg'
+import bulldog from 'media/bulldogsIngles.jpg'
+import husky from 'media/husky.jpg'
+import rhodesian from 'media/rhodesian.jpg'
+import rottweiler from 'media/rottweiler.jpg'
 
 function App() {
   return (
@@ -62,16 +63,6 @@ function App() {
 }
 
 
-function CardRazasPerros ({nombreRaza, imagen}) {
-    return (
-        <li className="breedCard backGroundBlue">
-                    <div className="contenedorImagen">
-                        <img src= {imagen} alt={nombreRaza}/>
-                    </div>
-                    <span className="breedTittle" >{nombreRaza}</span> 
-                </li>
 
-    )
-}
 
 export default App;
