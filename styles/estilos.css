@@ -24,7 +24,6 @@ ul {
 
 .logo {
     height: 70px;
-    border-radius: 10px;
 }
 
 .button {
@@ -80,6 +79,7 @@ ul {
 
 .iconoBusqueda:hover {
     color: rgb(37, 37, 201);
+
 }
 
 .centrado{
