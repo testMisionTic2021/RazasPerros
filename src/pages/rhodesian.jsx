@@ -1,8 +1,16 @@
+import Header from "components/Header"
+import Footer from "components/Footer"
 
 function RhodesianInfoPage () {
-    return <div>pag rhodesian
-        
-    </div>
+    return (
+
+        <div>
+            <Header />
+                pag rhodesian
+            <Footer />
+        </div>
+
+    )
 
 }
 
